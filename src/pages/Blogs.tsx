@@ -1,4 +1,3 @@
-import React from 'react'
 import BlogCard from '../components/BlogCard'
 import AppBar from '../components/AppBar'
 import useBlogs from '../hooks';
@@ -13,6 +12,7 @@ const Blogs = () => {
             <AppBar /> 
             <div  className="flex justify-center">
                 <div>
+                    <BlogSkeleton />
                     <BlogSkeleton />
                     <BlogSkeleton />
                     <BlogSkeleton />
